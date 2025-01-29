@@ -1,0 +1,169 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #000;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+/* Шапка */
+header {
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    margin: -5px;
+    font-size: 2.5em;
+}
+header h3 {
+    margin: 0;
+    font-size: 1em;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Портфолио */
+#portfolio {
+    background: #111;
+    padding: 40px 0;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-item {
+    flex: 1 1 calc(33.333% - 40px);
+    background: #222;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.portfolio-item p {
+    color: #ccc;
+}
+
+/* Обо мне */
+#about {
+    background: #000;
+    padding: 40px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-photo {
+    max-width: 300px;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+
+.about-text {
+    flex: 1;
+    color: #ccc;
+}
+
+.about-text ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #ccc;
+}
+
+/* Контакты */
+#contact {
+    background: #111;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ccc;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.contact-button:hover {
+    background: #ccc;
+}
+
+/* Подвал */
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #333;
+}
+
+footer p {
+    margin: 0;
+    color: #ccc;
+}
